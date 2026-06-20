@@ -1,1 +1,2 @@
 # guides
+eReader Library Setup
