@@ -8,7 +8,7 @@ A central repository hosting documentation, configurations, and setups for my va
 
 ### 💻 Operating Systems
 
-* **[Linux](./linux/)** - [Settings](.linux/post-install-linux.md).
+* **[Linux](./linux/)** - [Settings](./linux/post-install-linux.md).
 * **[macOS](./macos/)** - [Post-Installation Notes](./macos/post-install.md), terminal environments, and application settings.
 * **[Windows](./windows/)** - Gaming optimizations, dual-boot troubleshooting, and system setups.
 
