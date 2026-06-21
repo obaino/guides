@@ -8,14 +8,15 @@
 
 edit ```~/.xbindkeysrc``` add the following:
 
-```# Previous desktop
+```zsh
+# Previous desktop
 "dbus-send --session --type=method_call --dest=org.Cinnamon /org/Cinnamon org.Cinnamon.switchWorkspaceLeft"
   b:8
 
 # Next desktop
 "dbus-send --session --type=method_call --dest=org.Cinnamon /org/Cinnamon org.Cinnamon.switchWorkspaceRight"
   b:9
-  ```
+```
 
 ### keyboard repeat rate
 
