@@ -22,3 +22,23 @@ at the end type:
 ```mdfind -name app```
 - remove quarantine:
 ```sudo xattr -r -d com.apple.quarantine /Applications/yourapp.app```
+
+## Applications
+
+### [Maccy](https://maccy.app/) / clipboard manager
+
+### [stats](https://github.com/exelban/stats) / menu system info
+
+### [maestral](https://maestral.app/) / dropbox alternative
+
+### [XLD](https://tmkk.undo.jp/xld/index_e.html) / Lossless audio decoder for Mac OS
+
+```zsh
+xld -c cuefile.cue flacfile.flac -f mp3
+```
+
+convert Flac files in a folder to mp3 ver:
+
+```zsh
+for f in *.flac; do ffmpeg -i "$f" -q:a 0 "${f%.flac}.mp3"; done
+```
