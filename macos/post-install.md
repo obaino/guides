@@ -16,6 +16,26 @@ at the end type:
 
 ```killall SystemUIServer```
 
+### Snappier Dock
+
+[reference](https://medium.com/geekculture/making-the-dock-snappier-6537a6214ad)
+
+to implement:
+
+```zsh
+defaults write com.apple.dock autohide-delay -int 0
+defaults write com.apple.dock autohide-time-modifier -float 0.4
+killall Dock
+```
+
+to restore:
+
+```zsh
+defaults delete com.apple.dock autohide-delay
+defaults delete com.apple.dock autohide-time-modifier
+killall Dock
+```
+
 ### open unsigned / quarantined apps
 
 - check where the application's path is:
